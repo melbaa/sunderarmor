@@ -9,6 +9,8 @@ todo
 low rank sunders
 fail/miss/dodge/parry
 
-
 related work
 https://github.com/Horiwix/Sunderstruck
+
+credits
+shagu/pfui

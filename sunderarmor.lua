@@ -7,7 +7,7 @@ local _G = getfenv(0)
 
 
 local libtipscan = {}
-local baseName = "pfUIScan"
+local baseName = "UIScan"
 local methods = {
   "SetBagItem", "SetAction", "SetAuctionItem", "SetAuctionSellItem", "SetBuybackItem",
   "SetCraftItem", "SetCraftSpell", "SetHyperlink", "SetInboxItem", "SetInventoryItem",
@@ -361,6 +361,7 @@ end
 
 
 SLASH_SUNDERCOUNTS1 = "/sundercounts";
+SLASH_SUNDERCOUNTS2 = "/sundercount";
 SlashCmdList["SUNDERCOUNTS"] = dumpcounts
 
 SLASH_SUNDERRESET1 = "/sunderreset";
